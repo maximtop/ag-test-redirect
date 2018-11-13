@@ -5,7 +5,9 @@
   "repository": "git@github.com:maximtop/ag-test-redirect.git",
   "author": "Maxim Topchu <maximtop@gmail.com>",
   "license": "MIT",
-  "start": "node src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "express": "^4.16.4"
   },
