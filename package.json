@@ -1,0 +1,12 @@
+{
+  "name": "ag-test-redirect",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:maximtop/ag-test-redirect.git",
+  "author": "Maxim Topchu <maximtop@gmail.com>",
+  "license": "MIT",
+  "start": "node src/index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
