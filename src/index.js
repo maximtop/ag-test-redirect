@@ -17,6 +17,6 @@ app.get('/second', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/second.html'));
 });
 
-// app.get('/favicon.ico', (req, res) => res.status(204));
+app.get('/favicon.ico', (req, res) => res.status(204));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`App listening on port ${port}!`))
